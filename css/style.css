@@ -1,6 +1,8 @@
 /* General site style */
-
+/*Major Modular Sixth Scale:http://www.modularscale.com/?22&px&1.667&web&text*/
 html{
+    font-size: 1.375em; /*22px*/
+    line-height: 1.2em /*26px / 120*/
     height: 100%;
     background-color: #84a3cc;
   }
@@ -8,6 +10,8 @@ html{
     height: 100%;
   }
   h1{
+    font-size: 1.667em; /*36.674px*/
+    line-height: 1.2em /*26px*/
     font-family: "EB Garamond", "MVB Verdigris", serif;
     color: #022540;
     font-weight: 400;
