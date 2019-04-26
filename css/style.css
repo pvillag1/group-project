@@ -64,7 +64,7 @@ html{
 
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn, .navbar a:active, dropdown:active .dropbtn {
+.navbar a:hover, .dropdown:hover .dropbtn, .navbar a:active, .dropdown:active .dropbtn {
   background-color: red;
 }
 
