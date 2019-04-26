@@ -26,6 +26,13 @@ html{
     top: 1%;
     z-index: 1;
   }
+
+
+
+
+/* working on this right now
+
+
   nav{
     position:absolute;
     z-index: 1;
@@ -46,6 +53,10 @@ html{
     text-decoration: none;
     color: white;
   }
+
+
+*/
+
   @media screen and (min-width:768px){
     body > header > img{
     width: 15%;
@@ -60,7 +71,6 @@ html{
     width:auto;
     height: 20%;
     object-fit: contain;
-    z-index:0;
   }
   #splashimg > img{
     max-width:190%;
@@ -69,6 +79,7 @@ html{
     top: 0px;
     filter:brightness(.8);
     margin-left: -20%;
+    z-index:-1;
   }
   #forward{
     z-index: 1;
