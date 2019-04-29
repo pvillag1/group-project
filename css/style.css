@@ -21,9 +21,7 @@ html{
   }
   body > header > img{
     width: 20%;
-    position: absolute;
-    left: 1%;
-    top: 1%;
+    float: right;
     z-index: 1;
   }
 
@@ -32,8 +30,6 @@ html{
 
 .navbar {
   overflow: hidden;
-  background-color: #333;
-	color: chartreuse;
 	bottom: 2em;
 }
 
@@ -53,9 +49,8 @@ html{
 
 .dropdown .dropbtn {
   font-size: 2em;  
-  border: none;
-  outline: none;
-  color: chartreuse;
+  border: solid .05em;
+  color: white;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -65,7 +60,7 @@ html{
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn, .navbar a:active, .dropdown:active .dropbtn {
-  background-color: red;
+  background-color: darkblue;
 }
 
 .dropdown-content {
