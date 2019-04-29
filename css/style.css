@@ -54,7 +54,7 @@ html{
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
-  margin: 0;
+  margin: .09em 0 0 .09em;
 	z-index: 2;
 
 }
