@@ -94,12 +94,12 @@ html{
 
   @media screen and (min-width:768px){
     #forward{
-      top: 40%;
-      margin: 4em;
-      padding: 1.5em;
+      top: 30%;
+      margin: 2em;
+      padding: 1.25em;
     }
     #splashimg {
-      height: 10%;
+      height: 15%;
     }
   }
   @media screen (min-width:1200px){
