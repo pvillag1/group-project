@@ -25,7 +25,7 @@ html{
     z-index: 1;
   }
 
-/*  */
+/* nav menu */
 
 
 .navbar {
@@ -106,7 +106,7 @@ html{
   #forward{
     z-index: 1;
     position:absolute;
-    top:40%;
+    top:30%;
     color: #efeff1;
     background-color: rgb(44, 106, 186, .8);
     margin: .5em;
@@ -144,7 +144,7 @@ html{
       margin: 2em;
       padding: 1.25em;
     }
-    #splashimg {
+    #splashimg > img {
       height: 15%;
     }
   }
@@ -154,7 +154,7 @@ html{
       margin: 4em;
       padding: 1.5em;
     }
-    #splashimg {
+    #splashimg > img {
       height: 10%;
     }
   }
