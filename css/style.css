@@ -87,31 +87,7 @@ html{
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
-
-/* screen adaptions */
-
-  @media screen and (min-width:768px){
-    #forward{
-      top: 30%;
-      margin: 2em;
-      padding: 1.25em;
-    }
-    #splashimg {
-      height: 15%;
-    }
-  }
-  @media screen and (min-width:1200px){
-    #forward{
-      top: 40%;
-      margin: 4em;
-      padding: 1.5em;
-    }
-    #splashimg {
-      height: 10%;
-    }
-  } 
-
+ 
   /* Start of Homepage style */
 
   #splashimg{
@@ -159,4 +135,26 @@ html{
     position: absolute;
     top:110%;
     left: 20%;
+  }
+/* screen adaptions */
+
+  @media screen and (min-width:768px){
+    #forward{
+      top: 30%;
+      margin: 2em;
+      padding: 1.25em;
+    }
+    #splashimg {
+      height: 15%;
+    }
+  }
+  @media screen and (min-width:1200px){
+    #forward{
+      top: 40%;
+      margin: 4em;
+      padding: 1.5em;
+    }
+    #splashimg {
+      height: 10%;
+    }
   }
