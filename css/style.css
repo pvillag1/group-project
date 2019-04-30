@@ -102,8 +102,16 @@ html{
       height: 10%;
     }
   }
-  /* @media screen (min-width:1200px){
-  } working on this next */
+  @media screen (min-width:1200px){
+    #forward{
+      top: 40%;
+      margin: 4em;
+      padding: 1.5em;
+    }
+    #splashimg {
+      height: 10%;
+    }
+  } 
 
   /* Start of Homepage style */
 
