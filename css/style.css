@@ -164,6 +164,7 @@ nav{
     }
     body > header > img {
       height: 8%;
+      margin: .5em;
     }
     #splashimg > img{
       margin:0;
