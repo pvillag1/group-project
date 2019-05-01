@@ -25,7 +25,10 @@ html{
   float:right;
   z-index: 1;
   }
-
+ul {
+  list-style-type: circle;
+  margin-left:  2%; 
+}
 /* nav menu */
 
 .navbar {
