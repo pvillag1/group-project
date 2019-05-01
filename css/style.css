@@ -117,25 +117,8 @@ html{
   #forward h1{
     color: #efeff1;
   }
-  #contact{
-    z-index: 1;
-    position:relative;
-    top:40%;
-    color: #efeff1;
-    margin: .5em;
-    padding: .5em;
-    width:100%;
-    margin-right: 10px;
-  }
-  #contact h1{
-    color: #efeff1;
-  }
-  #iframe{
-    z-index: 1;
-    position: absolute;
-    top:110%;
-    left: 20%;
-  }
+/* end of home page */
+
 /* screen adaptions */
 
   @media screen and (min-width:768px){
@@ -172,8 +155,8 @@ html{
 /* end of screen adaptions */
 
 /* start of contact.html */
- 
-  #contact{
+
+#contact{
     z-index: 1;
     position:relative;
     top:35%;
@@ -181,8 +164,14 @@ html{
     margin: .5em;
     padding: .5em;
     width:100%;
+    margin-right: 10px;
+    background-color: #84a3cc;
   }
-  h2{
+  #contact > h1{
+    color: #efeff1;
+}
+
+  #contact > h2{
     color: black;
     text-align: center;
   }
@@ -205,6 +194,7 @@ html{
     width: 28%;
     height: 400px;
     border-right: double;
+    background-color: #84a3cc;
   }
   #right-wrapper{
     float: right;
@@ -213,6 +203,7 @@ html{
     color: #022540;
     align-content: center;
     margin-right: 15px;
+    background-color: #84a3cc;
   }
   .form-control {
     display: block;
