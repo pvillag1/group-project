@@ -4,7 +4,7 @@ html{
     font-size: 1.375em; /*22px*/
     line-height: 1.2em; /*26px / 120*/
     height: 100%;
-    background-color: #84a3cc;
+    background-color: #ffffff;
   }
   body{
     height: 100%;
@@ -20,16 +20,21 @@ html{
     font-family: "Roboto", "Akkurat", sans-serif;
   }
   body > header > img{
-    width: 20%;
-    float: right;
-    z-index: 1;
+  width: 10%;
+  position: absolute;
+  left: 1%;
+  top: 1%;
+  z-index: 1;
   }
 
-/*  */
+/* nav menu */
 
-
+nav{
+  margin-right: 30px;
+}
 .navbar {
-  overflow: hidden;
+  overflow: visible;
+  float: right;
   bottom: 2em;
 }
 
@@ -48,7 +53,7 @@ html{
 }
 
 .dropdown .dropbtn {
-  font-size: 2em;  
+  font-size: 2em;
   border: solid .05em;
   color: white;
   padding: 14px 16px;
@@ -64,11 +69,12 @@ html{
 
 .dropdown-content {
   display: none;
-  position: absolute;
+  position: relative;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 2;
+  border-radius: 5px;
 }
 
 .dropdown-content a {
@@ -87,7 +93,7 @@ html{
 .dropdown:hover .dropdown-content {
   display: block;
 }
- 
+
   /* Start of Homepage style */
 
   #splashimg{
@@ -121,11 +127,10 @@ html{
     position:relative;
     top:40%;
     color: #efeff1;
-    background-color: rgb(44, 106, 186, .5);
     margin: .5em;
     padding: .5em;
-    box-shadow: 1px 1px 2px rgb(44, 106, 186, 1);
-    text-align: center;
+    width:100%;
+    margin-right: 10px;
   }
   #contact h1{
     color: #efeff1;
@@ -158,4 +163,157 @@ html{
     body > header > img {
       height: 8%;
     }
+  }
+  #contact{
+    z-index: 1;
+    position:relative;
+    top:35%;
+    color: #efeff1;
+    margin: .5em;
+    padding: .5em;
+    width:100%;
+  }
+  h2{
+    color: black;
+    text-align: center;
+  }
+  #iframe{
+    z-index: 1;
+    position: absolute;
+    top:110%;
+    left: 20%;
+  }
+  #contact-splashimg > img{
+    max-width:190%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    filter:brightness(.8);
+    margin-left: -20%;
+  }
+  #left-wrapper{
+    float:left;
+    width: 28%;
+    height: 400px;
+    border-right: double;
+  }
+  #right-wrapper{
+    float: right;
+    height: 400px;
+    width: 70%;
+    color: #022540;
+    align-content: center;
+    margin-right: 15px;
+  }
+  .form-control {
+    display: block;
+    height: calc(2.25rem + 2px);
+    width:90%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  .col-12 {
+  max-width: 100%;
+  flex: 0 0 100%;
+  }
+  strong {
+  font-weight: bolder;
+  }
+  textarea{
+  width: 10%;
+  }
+  #form-left-wrapper{
+  float:left;
+    width: 50%;
+  }
+  #form-right-wrapper{
+  float: right;
+  width: 50%;
+  }
+  .btn--red {
+  color: #fff;
+  border-color: #d81100;
+  background: #ff4535;
+  }
+  @media screen and (min-width: 1200px){
+    #contact-splashimg > img{
+      margin:0;
+      height:30%;
+      width:100%;
+    }
+  }
+  @media screen and (min-width: 768px){
+    #forward{
+      top:40%;
+      margin:2em;
+      padding:1em;
+    }
+  }
+
+  @media screen and (min-width: 1200px){
+    #splashimg > img{
+      margin:0;
+      height:100%;
+      width:100%;
+    }
+  }
+  .font-b{
+    color: #022540;
+  }
+  .pastevent-link{
+    color: #20c1ff;
+    text-decoration: none;
+    transition: all 0.3s linear;
+  }
+  .font15{
+    font-size:16px;
+  }
+  .col-6 {
+    -ms-flex: 0 0 40%;
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+  .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  }
+  .borderXS {
+  border: 2px solid #d7d7d7;
+  }
+  .border-radius--sm {
+  border-radius: 5px!important;
+  }
+  .padding-sm {
+  padding: 10px;
+  }
+  .text-center {
+  text-align: center!important;
+  }
+  .margin--auto {
+  margin: auto;
+  display: block;
+  }
+  .Input {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 30px;
+  }
+  .padding-lg{
+  padding: 10px 150px 20px 150px;
+  }
+  .pullRight {
+  float: right;
   }
